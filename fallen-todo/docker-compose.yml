@@ -13,7 +13,6 @@ services:
     environment:
       - NODE_ENV=production
     ports:
-      - "5173:5173"
       - "3001:3001"
     volumes:
       - ./data:/app/data
