@@ -1,0 +1,14 @@
+id: todo
+name: Todo App
+version: 2.0.2
+description: Aplicativo de lista de tarefas
+developer: Carlos Fallen
+website: https://github.com/carlosfallen/todo
+repo: https://github.com/carlosfallen/todo
+support: https://github.com/carlosfallen/todo/issues
+port: 5173
+gallery:
+  - 1.jpg
+  - 2.jpg
+  - 3.jpg
+
