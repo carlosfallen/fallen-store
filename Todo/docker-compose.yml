@@ -5,11 +5,11 @@ services:
     environment:
       APP_HOST: todo_server_1
       APP_PORT: 5173
-      PROXY_AUTH_ADD: "false"
 
-  app:
+  server:
     image: carlosfallen/todo:latest
     restart: on-failure
+    init: true
     environment:
       - NODE_ENV=production  # Ambiente de produção
     ports:
