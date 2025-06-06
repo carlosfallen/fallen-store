@@ -1,15 +1,18 @@
 version: "3.7"
 
 services:
-  app:  # NOME QUE SERÁ USADO NO MANIFESTO
-    build: .
-    image: carlosfallen/todo:latest  # DEVE SER IGUAL AO MANIFESTO
+  app:
+    image: carlosfallen/todo:latest
     restart: unless-stopped
     ports:
-      - "3000:3000"  # PADRÃO PARA APPS UMBREL
+      - "3001:3001"
+    networks:
+      - umbrel_main_network
     volumes:
-      - ./data:/app/data
+      - ${APP_DATA_DIR}/data:/app/data
     environment:
-      PORT: 3000  # GARANTE QUE O APP USA ESTA PORTA
-
-# REMOVA CONFIGURAÇÃO DE REDE - UMBREL GERENCIA AUTOMATICAMENTE
+      - PORT=3001
+    
+networks:
+  umbrel_main_network:
+    external: true
