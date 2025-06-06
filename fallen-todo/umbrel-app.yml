@@ -1,11 +1,10 @@
-manifestVersion: 1
+manifestVersion: 2
 id: fallen-todo
 name: Todo App
 tagline: Aplicativo de lista de tarefas
-icon: https://raw.githubusercontent.com/carlosfallen/fallen-store/refs/heads/main/fallen-todo/icone.png
+icon: https://raw.githubusercontent.com/carlosfallen/fallen-store/main/fallen-todo/icone.png
 category: Development
 version: 2.0.6
-port: 3001
 description: Aplicativo de lista de tarefas
 developer: Carlos Fallen
 website: https://github.com/carlosfallen/todo
@@ -14,10 +13,12 @@ submission: https://github.com/getumbrel/umbrel-hello-world-app
 repo: https://github.com/carlosfallen/todo
 support: https://github.com/carlosfallen/todo/issues
 gallery:
-  - https://raw.githubusercontent.com/carlosfallen/fallen-store/refs/heads/main/fallen-todo/icone.png
+  - https://raw.githubusercontent.com/carlosfallen/fallen-store/main/fallen-todo/icone.png
 releaseNotes: |
-  Add what's new in the latest version of your app here.
-dependencies: []
-path: ""
-defaultUsername: ""
-defaultPassword: ""
+  Versão 2.0.6 do Todo App. Melhorias de desempenho e layout.
+
+# ❌ Não usar "port" nem "path"
+# ✅ Declarar os containers usados
+containers:
+  - service: app_proxy
+    image: getumbrel/app-proxy:latest
