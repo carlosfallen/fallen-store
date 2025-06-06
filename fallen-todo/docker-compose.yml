@@ -7,7 +7,7 @@ services:
       APP_PORT: 5173
 
   server:
-    image: carlosfallen/todo:latest
+    image: carlosfallen/todo:2.0.3
     restart: on-failure
     init: true
     environment:
