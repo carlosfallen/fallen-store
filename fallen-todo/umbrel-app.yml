@@ -9,16 +9,13 @@ description: Aplicativo de lista de tarefas
 developer: Carlos Fallen
 website: https://github.com/carlosfallen/todo
 submitter: Carlos
-submission: https://github.com/getumbrel/umbrel-hello-world-app
 repo: https://github.com/carlosfallen/todo
 support: https://github.com/carlosfallen/todo/issues
 gallery:
   - https://raw.githubusercontent.com/carlosfallen/fallen-store/main/fallen-todo/icone.png
 releaseNotes: |
-  Versão 2.0.6 do Todo App. Melhorias de desempenho e layout.
+  Versão 2.0.6 com melhorias no frontend e backend
 
-# ❌ Não usar "port" nem "path"
-# ✅ Declarar os containers usados
 containers:
   - service: app_proxy
     image: getumbrel/app-proxy:latest
