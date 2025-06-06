@@ -2,9 +2,9 @@ manifestVersion: 1
 id: fallen-todo
 name: Todo App
 tagline: Aplicativo de lista de tarefas
-icon: https://raw.githubusercontent.com/carlosfallen/fallen-store/refs/heads/main/fallen-todo/icon.png
+icon: https://raw.githubusercontent.com/carlosfallen/fallen-store/refs/heads/main/fallen-todo/icone.png
 category: Development
-version: 2.0.5
+version: 2.0.6
 port: 3001
 description: Aplicativo de lista de tarefas
 developer: Carlos Fallen
