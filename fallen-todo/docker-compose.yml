@@ -12,12 +12,6 @@ services:
     init: true
     environment:
       - NODE_ENV=production  # Ambiente de produção
-    ports:
-      - "5173:5173"  # Frontend (Vite)
-      - "3001:3001"  # Backend (Node.js)
     volumes:
       - ${APP_DATA_DIR}:/app/data  # Armazenamento persistente (CRÍTICO)
       - ${UMBREL_ROOT}/data/storage:/storage  # Acesso a arquivos do Umbrel (opcional)
-    ports:
-      - 5173:5173
-      - 3001:3001
