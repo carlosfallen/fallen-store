@@ -1,2 +1,2 @@
-id: "Fallen-Store" # Choose the ID for your app store. This should contain only alphabets ("a to z") and dashes ("-").
-name: "Fallen-Store" # Choose the name of your app store. It will show up in the UI as "<name> App Store".
+id: "Fallen" # Choose the ID for your app store. This should contain only alphabets ("a to z") and dashes ("-").
+name: "Fallen" # Choose the name of your app store. It will show up in the UI as "<name> App Store".
