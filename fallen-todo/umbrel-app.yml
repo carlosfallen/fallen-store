@@ -4,7 +4,7 @@ name: Todo App
 tagline: Aplicativo de lista de tarefas
 icon: https://raw.githubusercontent.com/carlosfallen/fallen-store/main/fallen-todo/icone.png
 category: Development
-version: 2.0.6
+version: 2.0.8
 description: Aplicativo de lista de tarefas
 developer: Carlos Fallen
 website: https://github.com/carlosfallen/todo
