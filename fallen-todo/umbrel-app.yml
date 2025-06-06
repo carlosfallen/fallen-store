@@ -19,3 +19,5 @@ releaseNotes: |
 containers:
   - service: app  # DEVE SER IGUAL AO NOME NO COMPOSE
     image: carlosfallen/todo:latest  # DEVE SER IGUAL AO NOME NO COMPOSE
+    ports:
+      - 3000:3000
