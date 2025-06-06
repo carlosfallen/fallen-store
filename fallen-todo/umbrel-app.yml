@@ -2,7 +2,7 @@ manifestVersion: 1
 id: fallen-todo
 name: Todo App
 tagline: Aplicativo de lista de tarefas
-icon: https://svgur.com/i/mvA.svg
+icon: https://drive.google.com/u/0/drive-viewer/AKGpihZe3yO1i7EFKRb9AGqk4pmxOlAIhBRZk_9cdYf6OV3fxsNBozMKnLptGHT3YMG5ZJiodV8FtzcFZcnyVEnvJotqE7wsBPHrtpo=s2560
 category: Development
 version: 2.0.3
 port: 5173
