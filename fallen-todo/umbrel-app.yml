@@ -4,7 +4,7 @@ name: Todo App
 tagline: Aplicativo de lista de tarefas
 icon: https://svgur.com/i/mvA.svg
 category: Development
-version: 2.0.2
+version: 2.0.3
 port: 5173
 description: Aplicativo de lista de tarefas
 developer: Carlos Fallen
