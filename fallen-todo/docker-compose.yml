@@ -6,10 +6,10 @@ services:
     image: carlosfallen/todo:latest  # DEVE SER IGUAL AO MANIFESTO
     restart: unless-stopped
     ports:
-      - "3001:3001"  # PADRÃO PARA APPS UMBREL
+      - "3000:3000"  # PADRÃO PARA APPS UMBREL
     volumes:
       - ./data:/app/data
     environment:
-      PORT: 3001  # GARANTE QUE O APP USA ESTA PORTA
+      PORT: 3000  # GARANTE QUE O APP USA ESTA PORTA
 
 # REMOVA CONFIGURAÇÃO DE REDE - UMBREL GERENCIA AUTOMATICAMENTE
