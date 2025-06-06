@@ -17,5 +17,5 @@ releaseNotes: |
   Versão 2.0.6 com melhorias no frontend e backend
 
 containers:
-  - service: app_proxy
-    image: getumbrel/app-proxy:latest
+  - service: app 
+    image: todo-app-image:latest 
