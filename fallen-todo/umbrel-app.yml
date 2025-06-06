@@ -1,7 +1,7 @@
 manifestVersion: 1
 id: todo
 name: Todo App
-tagline: Replace this tagline with your app
+tagline: Aplicativo de lista de tarefas
 icon: https://svgur.com/i/mvA.svg
 category: Development
 version: 2.0.2
@@ -15,9 +15,7 @@ repo: https://github.com/carlosfallen/todo
 support: https://github.com/carlosfallen/todo/issues
 gallery:
   - https://i.imgur.com/yyVG0Jb.jpeg
-  - https://i.imgur.com/yyVG0Jb.jpeg
-  - https://i.imgur.com/yyVG0Jb.jpeg
-releaseNotes: >-
+releaseNotes: |
   Add what's new in the latest version of your app here.
 dependencies: []
 path: ""
