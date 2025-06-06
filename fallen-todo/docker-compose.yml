@@ -1,19 +1,15 @@
 version: "3.7"
 
 services:
-  app_proxy:
-    image: getumbrel/app-proxy:latest
-    environment:
-      APP_HOST: fallen-todo_server_1
-      APP_PORT: 3001
-
-  server:
-    image: carlosfallen/todo:latest
-    restart: on-failure
-    init: true
-    environment:
-      - NODE_ENV=production
+  app:  # NOME QUE SERÁ USADO NO MANIFESTO
+    build: .
+    image: carlosfallen/todo:latest  # DEVE SER IGUAL AO MANIFESTO
+    restart: unless-stopped
     ports:
-      - "3001:3001"
+      - "3001:3001"  # PADRÃO PARA APPS UMBREL
     volumes:
       - ./data:/app/data
+    environment:
+      PORT: 3001  # GARANTE QUE O APP USA ESTA PORTA
+
+# REMOVA CONFIGURAÇÃO DE REDE - UMBREL GERENCIA AUTOMATICAMENTE
