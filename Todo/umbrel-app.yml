@@ -1,14 +1,25 @@
+manifestVersion: 1
 id: todo
 name: Todo App
+tagline: Replace this tagline with your app
+icon: https://svgur.com/i/mvA.svg
+category: Development
 version: 2.0.2
+port: 5173
 description: Aplicativo de lista de tarefas
 developer: Carlos Fallen
 website: https://github.com/carlosfallen/todo
+submitter: Umbrel
+submission: https://github.com/getumbrel/umbrel-hello-world-app
 repo: https://github.com/carlosfallen/todo
 support: https://github.com/carlosfallen/todo/issues
-port: 5173
 gallery:
-  - 1.jpg
-  - 2.jpg
-  - 3.jpg
-
+  - https://i.imgur.com/yyVG0Jb.jpeg
+  - https://i.imgur.com/yyVG0Jb.jpeg
+  - https://i.imgur.com/yyVG0Jb.jpeg
+releaseNotes: >-
+  Add what's new in the latest version of your app here.
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
