@@ -4,20 +4,23 @@ name: Todo App
 tagline: Aplicativo de lista de tarefas
 icon: https://raw.githubusercontent.com/carlosfallen/fallen-store/main/fallen-todo/icone.png
 category: Development
-version: 2.0.8
-description: Aplicativo de lista de tarefas
+version: "2.0.9"
+port: 3001
+description: |
+  Aplicativo de lista de tarefas desenvolvido com Node.js e Vite.
+  Interface moderna e responsiva para gerenciar suas tarefas diárias.
 developer: Carlos Fallen
 website: https://github.com/carlosfallen/todo
-submitter: Carlos
+submitter: Carlos Fallen
 repo: https://github.com/carlosfallen/todo
 support: https://github.com/carlosfallen/todo/issues
 gallery:
-  - https://raw.githubusercontent.com/carlosfallen/fallen-store/main/fallen-todo/icone.png
+  - https://raw.githubusercontent.com/carlosfallen/fallen-store/main/fallen-todo/screenshot1.png
+  - https://raw.githubusercontent.com/carlosfallen/fallen-store/main/fallen-todo/screenshot2.png
 releaseNotes: |
-  Versão 2.0.6 com melhorias no frontend e backend
-
-containers:
-  - service: app  # DEVE SER IGUAL AO NOME NO COMPOSE
-    image: carlosfallen/todo:latest  # DEVE SER IGUAL AO NOME NO COMPOSE
-    ports:
-      - 3000:3000
+  Versão 2.0.9 com melhorias no frontend e backend:
+  - Interface mais responsiva
+  - Melhor performance
+  - Correções de bugs
+dependencies: []
+path: ""
