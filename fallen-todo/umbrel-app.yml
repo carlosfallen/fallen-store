@@ -1,6 +1,7 @@
 manifestVersion: 1
 id: fallen-todo
 name: Todo App
+icon: icon.svg
 tagline: Aplicativo de lista de tarefas
 category: Development
 version: "2.0.9"
