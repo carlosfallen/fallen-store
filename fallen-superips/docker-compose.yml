@@ -5,14 +5,14 @@ services:
     image: carlosfallen/superips:latest
     restart: unless-stopped
     ports:
-      - "5173:5173"
+      - "5173:5173"  # expõe a porta real do backend
     networks:
       - umbrel_main_network
     volumes:
       - ${APP_DATA_DIR}/data:/app/data
     environment:
-      - PORT=5173
-    
+      - PORT=5173   # backend escutando nessa porta
+
 networks:
   umbrel_main_network:
     external: true
