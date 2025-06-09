@@ -1,0 +1,26 @@
+manifestVersion: 1
+id: fallen-superips
+name: Super Ips
+icon: https://raw.githubusercontent.com/carlosfallen/fallen-store/main/fallen-todo/icon.png
+tagline: Aplicativo de gerenciar dispositivos na rede
+category: Development
+version: "8.9.1"
+port: 5173
+description: |
+  Aplicativo de lista de tarefas desenvolvido com Node.js e Vite.
+  Interface moderna e responsiva para gerenciar suas tarefas diárias.
+developer: Carlos Fallen
+website: https://github.com/carlosfallen/rede
+submitter: Carlos Fallen
+repo: https://github.com/carlosfallen/rede
+support: https://github.com/carlosfallen/todo/issues
+gallery:
+  - https://raw.githubusercontent.com/carlosfallen/fallen-store/main/fallen-todo/screenshot1.png
+  - https://raw.githubusercontent.com/carlosfallen/fallen-store/main/fallen-todo/screenshot3.png
+releaseNotes: |
+  Versão 2.0.9 com melhorias no frontend e backend:
+  - Interface mais responsiva
+  - Melhor performance
+  - Correções de bugs
+dependencies: []
+path: ""
