@@ -1,0 +1,40 @@
+# umbrel-app.yml
+manifestVersion: 1
+id: apk-store
+name: APK Store
+tagline: "Servidor de APKs para download local"
+icon: https://raw.githubusercontent.com/getumbrel/umbrel-apps/master/android/icon.svg
+category: utilities
+version: "1.0.0"
+port: 5174
+description: >-
+  Servidor web elegante para distribuição de APKs na sua rede local.
+  
+  Características:
+  - Interface moderna inspirada no iOS
+  - Grid responsivo de aplicativos
+  - Download direto no navegador
+  - Suporte a ícones automáticos
+  - Fundo glassmorphism com blur
+  
+  Adicione seus APKs na pasta ./public/apks/ e eles aparecerão automaticamente na interface.
+
+releaseNotes: >-
+  Versão inicial do APK Store
+  - Interface React moderna
+  - Servidor Node.js
+  - Design glassmorphism
+  - Detecção automática de APKs
+  
+developer: "Comunidade Umbrel"
+website: ""
+repo: ""
+support: ""
+gallery:
+  - https://via.placeholder.com/800x600/667eea/ffffff?text=APK+Store
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+submitter: "Umbrel Community"
+submission: "https://github.com/getumbrel/umbrel-apps"
