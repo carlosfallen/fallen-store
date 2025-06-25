@@ -3,7 +3,7 @@ manifestVersion: 1
 id: apk-store
 name: APK Store
 tagline: "Servidor de APKs para download local"
-icon: https://raw.githubusercontent.com/getumbrel/umbrel-apps/master/android/icon.svg
+icon: https://raw.githubusercontent.com/carlosfallen/fallen-store/refs/heads/main/fallen-apk-store/icon.png
 category: utilities
 version: "1.0.0"
 port: 5174
