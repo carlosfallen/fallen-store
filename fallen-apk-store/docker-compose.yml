@@ -2,12 +2,7 @@ version: '3.8'
 
 services:
   apk-store:
-    # Para desenvolvimento local (build)
-    # build: .
-    
-    # Para produção (imagem do Docker Hub)
     image: carlosfallen/apk-store:latest 
-    
     container_name: apk-store
     ports:
       - "5174:5174"
