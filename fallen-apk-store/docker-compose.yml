@@ -6,7 +6,7 @@ services:
     # build: .
     
     # Para produção (imagem do Docker Hub)
-    image: ${APP_DOCKER_IMAGE:-seuusername/apk-store:latest}
+    image: carlosfallen/apk-store:latest 
     
     container_name: apk-store
     ports:
