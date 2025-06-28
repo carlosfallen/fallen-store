@@ -1,7 +1,7 @@
 manifestVersion: 1
 id: fallen-superips
 name: Super Ips
-icon: https://raw.githubusercontent.com/carlosfallen/fallen-store/refs/heads/main/fallen-superips/icon.png
+icon: https://raw.githubusercontent.com/carlosfallen/fallen-store/main/fallen-superips/icon.png
 tagline: Aplicativo de gerenciar dispositivos na rede
 category: utilities
 version: "8.9.2"
@@ -15,9 +15,8 @@ submitter: Carlos Fallen
 repo: https://github.com/carlosfallen/rede
 support: https://github.com/carlosfallen/todo/issues
 gallery:
-  - https://raw.githubusercontent.com/carlosfallen/fallen-store/main/fallen-todo/screenshot1.png
-  - https://raw.githubusercontent.com/carlosfallen/fallen-store/main/fallen-todo/screenshot3.png
+  - https://raw.githubusercontent.com/carlosfallen/fallen-store/main/fallen-superips/screenshot1.png
+  - https://raw.githubusercontent.com/carlosfallen/fallen-store/main/fallen-superips/screenshot2.png
 releaseNotes: |
-Melhorias na Interface
+  Melhorias na Interface
 dependencies: []
-path: ""
