@@ -1,9 +1,9 @@
-version: '3.8'
+version: "3.7"
 
 services:
-  apk-store:
+  app:
     image: carlosfallen/apk-store:latest 
-    container_name: apk-store
+    restart: unless-stopped
     ports:
       - "5174:5174"
     volumes:
