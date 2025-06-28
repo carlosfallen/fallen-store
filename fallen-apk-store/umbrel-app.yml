@@ -1,5 +1,5 @@
 manifestVersion: 1
-id: apk-store
+id: fallen-apk-store
 name: APK Store
 tagline: "Servidor de APKs para download local"
 icon: https://raw.githubusercontent.com/carlosfallen/fallen-store/refs/heads/main/fallen-apk-store/icon.png
