@@ -4,7 +4,7 @@ name: Super Ips
 icon: https://raw.githubusercontent.com/carlosfallen/fallen-store/main/fallen-superips/icon.png
 tagline: Aplicativo de gerenciar dispositivos na rede
 category: utilities
-version: "8.9.7"
+version: "8.9.8"
 port: 5173
 description: |
   Aplicativo de lista de tarefas desenvolvido com Node.js e Vite.
