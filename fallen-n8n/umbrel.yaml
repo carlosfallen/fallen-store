@@ -1,0 +1,27 @@
+manifestVersion: 2
+id: fallen-n8n
+name: fallen-n8n
+category: automation
+version: "1.40.0"
+tagline: Fluxos automáticos de dados com no-code
+description: >
+  n8n é uma ferramenta de automação poderosa para integrar APIs e serviços.
+  Crie workflows no-code que interagem com bancos de dados, mensageiros, e serviços de nuvem.
+
+developer: 
+  name: n8n GmbH
+  url: https://n8n.io
+
+website: https://n8n.io
+dependencies: []
+repo: https://github.com/suporte-carlos/n8n-umbrel
+support: https://community.n8n.io/
+port: 5678
+gallery:
+  - https://n8n.io/images/screenshots/editor.png
+  - https://n8n.io/images/screenshots/workflow.png
+defaultUsername: admin
+defaultPassword: senhaforte
+submitter: 
+  name: Carlos Augusto
+  email: seu-email@dominio.com
