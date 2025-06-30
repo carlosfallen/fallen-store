@@ -1,6 +1,6 @@
 manifestVersion: 2
 id: fallen-n8n
-name: fallen-n8n
+name: n8n
 category: automation
 version: "1.40.0"
 tagline: Fluxos automáticos de dados com no-code
