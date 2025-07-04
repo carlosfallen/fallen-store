@@ -39,7 +39,7 @@ export default defineConfig({
         display: 'standalone',
         icons: [
           {
-            src: '/lsit.png',
+            src: '/list.png',
             sizes: '192x192',
             type: 'image/png',
           },
