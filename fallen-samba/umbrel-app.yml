@@ -1,0 +1,16 @@
+manifestVersion: 1
+id: fallen-samba
+name: Samba
+icon: 
+tagline: compartilhar
+category: utilities
+version: "1.0"
+description:
+developer: Carlos Fallen
+website: https://github.com/carlosfallen
+submitter: Carlos Fallen
+repo: https://github.com/carlosfallen
+support: https://github.com/carlosfallen
+gallery:
+releaseNotes:
+dependencies:
