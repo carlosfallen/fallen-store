@@ -6,8 +6,10 @@ services:
     restart: unless-stopped
     network_mode: host
     volumes:
-      - ${APP_DATA_DIR}/data/local:/shares/local:rw
-      - ${APP_DATA_DIR}/data/Win11:/shares/Win11:ro
+      # Montar as pastas REAIS do sistema
+      - /mnt/data/arquivos/local:/shares/local:rw
+      - /mnt/data/arquivos/Win11:/shares/Win11:ro
+      # Configuração do samba
       - ${APP_DATA_DIR}/config/smb.conf:/etc/samba/smb.conf:ro
     environment:
       - SAMBA_PASS=jorge
