@@ -1,0 +1,15 @@
+version: '3.8'
+services:
+  samba:
+    image: carlosfallen/samba:latest
+    container_name: samba
+    restart: unless-stopped
+    network_mode: host
+    volumes:
+      - /mnt/data/arquivos/local:/shares/local:rw
+      - /mnt/data/arquivos/Win11:/shares/Win11:ro
+      - ./config/smb.conf:/etc/samba/smb.conf:ro
+    environment:
+      - SAMBA_PASS=jorge
+    security_opt:
+      - no-new-privileges:true
