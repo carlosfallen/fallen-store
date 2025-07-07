@@ -1,7 +1,7 @@
 manifestVersion: 1
 id: fallen-samba
 name: Samba
-icon: 
+icon: https://raw.githubusercontent.com/carlosfallen/fallen-store/refs/heads/main/fallen-samba/icon.png
 tagline: compartilhar
 category: utilities
 version: "1.0"
