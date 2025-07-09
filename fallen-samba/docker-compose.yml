@@ -1,17 +1,22 @@
 version: '3.8'
+
 services:
   samba:
-    image: carlosfallen/samba:latest
-    container_name: samba
+    image: seu-usuario/samba-umbrel:latest
+    container_name: samba-server
     restart: unless-stopped
     network_mode: host
     volumes:
-      # Montar as pastas REAIS do sistema
       - /mnt/data/arquivos/local:/shares/local:rw
       - /mnt/data/arquivos/Win11:/shares/Win11:ro
-      # Configuração do samba
       - ${APP_DATA_DIR}/config/smb.conf:/etc/samba/smb.conf:ro
+      - ${APP_DATA_DIR}/logs:/var/log/samba
     environment:
-      - SAMBA_PASS=jorge
-    security_opt:
-      - no-new-privileges:true
+      - SAMBA_USER=jorge
+      - SAMBA_PASSWORD=jorge
+      - SAMBA_UID=1000
+      - SAMBA_GID=1000
+      - SAMBA_WORKGROUP=JB
+      - SAMBA_SERVER_STRING=Umbrel Samba Server
+    stdin_open: true
+    tty: true
