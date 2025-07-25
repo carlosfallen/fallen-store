@@ -1,30 +1,21 @@
+manifestVersion: 1
 id: headwind-mdm
 name: Headwind MDM
-version: "1.0.0"
-tagline: Gerencie dispositivos Android remotamente
+tagline: Mobile Device Management for Android
 description: >
-  Headwind MDM é uma solução open source para gerenciamento remoto de dispositivos Android,
-  incluindo instalação de APKs, modo quiosque, controle de rede e mais.
-developer: Headwind
+  Open source mobile device management software for Android devices.
+  Manage corporate Android devices remotely.
+developer: h-mdm
 website: https://h-mdm.com
 dependencies: []
 repo: https://github.com/h-mdm/hmdm-docker
-icon: https://h-mdm.com/favicon.ico
+support: https://github.com/h-mdm/hmdm-docker/issues
+port: 8443
 gallery:
-  - https://h-mdm.com/wp-content/uploads/2020/11/screen1.jpg
-path: /headwind
-defaultPort: 443
-docker:
-  container_name: headwind-mdm
-  build: .      # não usado, pois vamos usar `image` direto
-  image: headwindmdm/hmdm:0.1.5
-  ports:
-    - "443:8443"
-    - "31000:31000"
-  env_file:
-    - .env
-  volumes:
-    - volumes/work:/usr/local/tomcat/work
-    - volumes/letsencrypt:/etc/letsencrypt
-    - volumes/hmdm-config:/opt/hmdm/config
-  restart: unless-stopped
+  - 1.jpg
+  - 2.jpg
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+submitter: Seu Nome
+submission: https://github.com/seu-repo/umbrel-headwind-mdm
