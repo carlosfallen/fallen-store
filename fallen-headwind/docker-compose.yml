@@ -1,16 +1,21 @@
-version: "3.3"
+version: "3.8"
 
 services:
-  hmdm:
+  app:
     image: headwindmdm/hmdm:0.1.5
-    container_name: headwind-mdm
-    env_file:
-      - .env
+    restart: on-failure
+    environment:
+      - SQL_HOST=${SQL_HOST:-localhost}
+      - SQL_BASE=${SQL_BASE:-hmdm}  
+      - SQL_USER=${SQL_USER:-hmdm}
+      - SQL_PASS=${SQL_PASS:-topsecret}
+      - BASE_DOMAIN=${BASE_DOMAIN:-localhost}
+      - ADMIN_EMAIL=${ADMIN_EMAIL:-admin@localhost}
+      - PROTOCOL=${PROTOCOL:-https}
     ports:
-      - "443:8443"
+      - "8443:8443"
       - "31000:31000"
     volumes:
-      - ./volumes/work:/usr/local/tomcat/work
-      - ./volumes/letsencrypt:/etc/letsencrypt
-      - ./volumes/hmdm-config:/opt/hmdm/config
-    restart: unless-stopped
+      - ${APP_DATA_DIR}/volumes/work:/usr/local/tomcat/work
+      - ${APP_DATA_DIR}/volumes/letsencrypt:/etc/letsencrypt
+      - ${APP_DATA_DIR}/volumes/hmdm-config:/opt/hmdm/config
