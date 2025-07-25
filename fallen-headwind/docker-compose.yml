@@ -1,12 +1,16 @@
 version: "3.3"
 
 services:
-  headwind-mdm:
+  hmdm:
     image: headwindmdm/hmdm:0.1.5
     container_name: headwind-mdm
+    env_file:
+      - .env
     ports:
-      - "8080:8080"
+      - "443:8443"
+      - "31000:31000"
     volumes:
-      - ./data:/opt/hmdm/data
-      - ./logs:/opt/hmdm/logs
+      - ./volumes/work:/usr/local/tomcat/work
+      - ./volumes/letsencrypt:/etc/letsencrypt
+      - ./volumes/hmdm-config:/opt/hmdm/config
     restart: unless-stopped
