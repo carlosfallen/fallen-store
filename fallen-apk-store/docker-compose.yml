@@ -1,24 +1,14 @@
-version: "3.7"
+version: "3.8"
 
 services:
   app:
     image: carlosfallen/apk-store:latest 
-    restart: unless-stopped
+    restart: on-failure
     ports:
-      - "5174:5174"
+      - "${APP_PORT}:5174"
     volumes:
       - ${APP_DATA_DIR}/apks:/app/public/apks
       - ${APP_DATA_DIR}/data:/app/data
     environment:
       - NODE_ENV=production
       - PORT=5174
-    restart: unless-stopped
-    networks:
-      - umbrel_main_network
-
-volumes:
-  apk_data:
-
-networks:
-  umbrel_main_network:
-    external: true
