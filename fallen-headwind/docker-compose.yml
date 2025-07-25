@@ -1,0 +1,12 @@
+version: "3.3"
+
+services:
+  headwind-mdm:
+    image: headwindmdm/hmdm:0.1.5
+    container_name: headwind-mdm
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./data:/opt/hmdm/data
+      - ./logs:/opt/hmdm/logs
+    restart: unless-stopped
