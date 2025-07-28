@@ -23,7 +23,7 @@ services:
       - ADMIN_EMAIL=admin@localhost
       - PROTOCOL=http
     ports:
-      - "8443:8443"
+      - "8443:8080"
       - "31000:31000"
     depends_on:
       - db
