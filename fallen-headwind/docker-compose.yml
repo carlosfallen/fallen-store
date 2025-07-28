@@ -19,7 +19,7 @@ services:
       - SQL_BASE=hmdm
       - SQL_USER=hmdm
       - SQL_PASS=topsecret
-      - BASE_DOMAIN=localhost
+      - BASE_DOMAIN=10.0.11.150:8443
       - ADMIN_EMAIL=admin@localhost
       - PROTOCOL=http
     ports:
