@@ -4,7 +4,7 @@ name: Headwind MDM
 icon: https://raw.githubusercontent.com/carlosfallen/fallen-store/main/fallen-headwind/icon.png
 tagline: Mobile Device Management for Android
 category: utilities
-version: "1.0.1"
+version: "8.9.9"
 port: 8443
 description: >
   Open source mobile device management software for Android devices.
