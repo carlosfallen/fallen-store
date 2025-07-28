@@ -11,7 +11,7 @@ services:
       - SQL_PASS=${SQL_PASS:-topsecret}
       - BASE_DOMAIN=${BASE_DOMAIN:-localhost}
       - ADMIN_EMAIL=${ADMIN_EMAIL:-admin@localhost}
-      - PROTOCOL=${PROTOCOL:-https}
+      - PROTOCOL=http
     ports:
       - "8443:8443"
       - "31000:31000"
