@@ -1,20 +1,32 @@
 version: "3.8"
 
 services:
+  db:
+    image: postgres:14
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: hmdm
+      POSTGRES_USER: hmdm
+      POSTGRES_PASSWORD: topsecret
+    volumes:
+      - ${APP_DATA_DIR}/volumes/postgres:/var/lib/postgresql/data
+
   app:
     image: headwindmdm/hmdm:0.1.5
     restart: on-failure
     environment:
-      - SQL_HOST=${SQL_HOST:-localhost}
-      - SQL_BASE=${SQL_BASE:-hmdm}  
-      - SQL_USER=${SQL_USER:-hmdm}
-      - SQL_PASS=${SQL_PASS:-topsecret}
-      - BASE_DOMAIN=${BASE_DOMAIN:-localhost}
-      - ADMIN_EMAIL=${ADMIN_EMAIL:-admin@localhost}
+      - SQL_HOST=db
+      - SQL_BASE=hmdm
+      - SQL_USER=hmdm
+      - SQL_PASS=topsecret
+      - BASE_DOMAIN=localhost
+      - ADMIN_EMAIL=admin@localhost
       - PROTOCOL=http
     ports:
       - "8443:8443"
       - "31000:31000"
+    depends_on:
+      - db
     volumes:
       - ${APP_DATA_DIR}/volumes/work:/usr/local/tomcat/work
       - ${APP_DATA_DIR}/volumes/letsencrypt:/etc/letsencrypt
