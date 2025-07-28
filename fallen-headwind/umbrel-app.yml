@@ -1,20 +1,22 @@
 manifestVersion: 1
 id: fallen-headwind
 name: Headwind MDM
-tagline: Mobile Device Management for Android
 icon: https://raw.githubusercontent.com/carlosfallen/fallen-store/main/fallen-headwind/icon.png
+tagline: Mobile Device Management for Android
 category: utilities
+version: "8.9.8"
+port: 8443
 description: >
   Open source mobile device management software for Android devices.
   Manage corporate Android devices remotely.
-developer: h-mdm
-website: https://h-mdm.com
-dependencies: []
-repo: https://github.com/h-mdm/hmdm-docker
-support: https://github.com/h-mdm/hmdm-docker/issues
-port: 8443
+developer: Carlos Fallen
+website: https://github.com/carlosfallen/rede
+submitter: Carlos Fallen
+repo: https://github.com/carlosfallen/rede
+support: https://github.com/carlosfallen/todo/issues
 gallery:
   - https://raw.githubusercontent.com/carlosfallen/fallen-store/main/fallen-headwind/screenshot1.png
   - https://raw.githubusercontent.com/carlosfallen/fallen-store/main/fallen-headwind/screenshot2.png
-submitter: Seu Nome
-submission: https://github.com/seu-repo/umbrel-headwind-mdm
+releaseNotes: |
+  Melhorias na Interface
+dependencies: []
