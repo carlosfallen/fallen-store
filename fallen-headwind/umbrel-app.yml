@@ -15,8 +15,8 @@ submitter: Carlos Fallen
 repo: https://github.com/carlosfallen/rede
 support: https://github.com/carlosfallen/todo/issues
 gallery:
-  - https://raw.githubusercontent.com/carlosfallen/fallen-store/main/fallen-headwind/screenshot1.png
-  - https://raw.githubusercontent.com/carlosfallen/fallen-store/main/fallen-headwind/screenshot2.png
+  - https://raw.githubusercontent.com/carlosfallen/fallen-store/main/fallen-headwind/1.jpg
+  - https://raw.githubusercontent.com/carlosfallen/fallen-store/main/fallen-headwind/2.jpg
 releaseNotes: |
   Melhorias na Interface
 dependencies: []
