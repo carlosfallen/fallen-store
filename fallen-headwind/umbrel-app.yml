@@ -2,7 +2,7 @@ manifestVersion: 1
 id: fallen-headwind
 name: Headwind MDM
 tagline: Mobile Device Management for Android
-icon: https://raw.githubusercontent.com/carlosfallen/fallen-store/main/fallen-superips/icon.png
+icon: https://raw.githubusercontent.com/carlosfallen/fallen-store/main/fallen-headwind/icon.png
 category: utilities
 description: >
   Open source mobile device management software for Android devices.
