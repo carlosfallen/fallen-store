@@ -1,6 +1,8 @@
+version: "3.7"
+
 services:
-  apk-store:
-    build: .
+  app:
+    image: carlosfallen/apk-store:latest 
     container_name: apk-store
     ports:
       - "5176:5176"
