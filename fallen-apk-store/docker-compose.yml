@@ -3,13 +3,13 @@ services:
     build: .
     container_name: apk-store
     ports:
-      - "3000:3000"
+      - "5176:5176"
     volumes:
       - /mnt/data/arquivos/local/Apk:/app/public/apks
       - apk_data:/app/data
     environment:
       - NODE_ENV=production
-      - PORT=3000
+      - PORT=5176
     restart: unless-stopped
     networks:
       - umbrel_main_network
