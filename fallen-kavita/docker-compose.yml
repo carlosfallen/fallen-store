@@ -1,16 +1,6 @@
 version: "3.7"
 
 services:
-  app_proxy:
-    image: getumbrel/app-proxy:1.0.0
-    depends_on:
-      - kavita
-    ports:
-      - "5000"
-    environment:
-      APP_HOST: kavita
-      APP_PORT: 5000
-
   kavita:
     image: jvmilazz0/kavita:nightly-0.8.7.8
     container_name: kavita
