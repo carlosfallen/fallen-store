@@ -4,7 +4,7 @@ name: Kavita
 icon: https://raw.githubusercontent.com/carlosfallen/fallen-store/refs/heads/main/fallen-kavita/quadrinho.png
 tagline: Servidor moderno para leitura de mangás, livros e HQs
 category: media
-version: "1.0.3"
+version: "1.0.4"
 port: 5000
 description: |
   Kavita é um servidor auto-hospedado de leitura para mangás, HQs e ebooks.
