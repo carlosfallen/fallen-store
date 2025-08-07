@@ -1,10 +1,10 @@
 manifestVersion: 1
 id: fallen-kavita
 name: Kavita
-icon: https://raw.githubusercontent.com/carlosfallen/fallen-store/refs/heads/main/fallen-kavita/quadrinho.png
+icon: https://raw.githubusercontent.com/carlosfallen/fallen-store/refs/heads/main/fallen-kavita/manga.png
 tagline: Servidor moderno para leitura de mangás, livros e HQs
 category: media
-version: "1.0.5"
+version: "1.0.6"
 port: 5000
 description: |
   Kavita é um servidor auto-hospedado de leitura para mangás, HQs e ebooks.
@@ -17,7 +17,7 @@ submitter: Carlos Fallen
 repo: https://github.com/Kareadita/Kavita
 support: https://github.com/Kareadita/Kavita/issues
 gallery:
-  - https://raw.githubusercontent.com/carlosfallen/fallen-store/refs/heads/main/fallen-kavita/quadrinho.png
+  - https://raw.githubusercontent.com/carlosfallen/fallen-store/refs/heads/main/fallen-kavita/manga.png
 releaseNotes: |
   Versão inicial com integração Umbrel.
   Inclui leitura de mangás e livros locais via pasta `/manga`.
