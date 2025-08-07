@@ -1,0 +1,8 @@
+id: fallen-kavita
+title: Kavita
+description: "Servidor auto‑hospedado de leitura (Kavita) via Docker."
+version: "1.0.0"
+icon: "icon.png"
+port: 5000
+repo: https://github.com/Kareadita/Kavita
+support: https://github.com/Kareadita/Kavita/issues
