@@ -1,0 +1,15 @@
+version: "3.7"
+services:
+  hbbs:
+    image: rustdesk/rustdesk-server:latest
+    command: ["hbbs", "-c", "/root/config.toml"]
+    volumes:
+      - ./config.toml:/root/config.toml:ro
+      - ./data:/root/data
+    network_mode: "host"
+    restart: unless-stopped
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
