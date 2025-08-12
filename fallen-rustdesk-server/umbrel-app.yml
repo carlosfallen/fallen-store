@@ -1,0 +1,31 @@
+manifestVersion: 1
+id: fallen-rustdesk-server
+version: "1.1.14"
+maintainer: Carlos Fallen
+meta:
+  name: "RustDesk Server (hbbs-only)"
+  description: "Servidor RustDesk focado em hbbs (Rendezvous) para uso local — discovery + P2P habilitados, relay desativado para menor latência."
+  repository: "https://github.com/carlosfallen/rustdesk-server-umbrel"
+  license: "AGPL-3.0"
+  logo: "logo.png"
+ports:
+  - internal: 21115
+    external: 21115
+    protocol: tcp
+  - internal: 21116
+    external: 21116
+    protocol: udp
+  - internal: 21118
+    external: 21118
+    protocol: udp
+services:
+  - name: hbbs
+    description: "RustDesk hbbs (rendezvous/signaling)"
+    path: "http://localhost:21115"
+    status_check: "docker ps | grep hbbs"
+install:
+  - "docker-compose up -d"
+uninstall:
+  - "docker-compose down"
+releaseNotes: |
+  - Initial umbrel community package, hbbs-only for low-latency LAN P2P.
