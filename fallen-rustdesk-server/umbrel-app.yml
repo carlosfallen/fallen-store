@@ -1,22 +1,19 @@
 manifestVersion: 1
 id: fallen-rustdesk-server
-name: "RustDesk Server (hbbs-only)"
-tagline: "Servidor RustDesk (hbbs) para LAN — descoberta e P2P, relay desativado"
-icon: https://raw.githubusercontent.com/carlosfallen/fallen-store/refs/heads/main/fallen-rustdesk-server/71636191.png
-category: Server
-version: "1.1.17"
-port: 21115
-description: |
-  Servidor RustDesk focado em hbbs (rendezvous/signaling) para uso em rede local.
-  - Discovery (broadcast) e P2P/hole-punch habilitados para menor latência.
-  - Relay (hbbr) desativado por padrão — ideal para LAN com controle de rede.
-  NOTA: desabilitar relay remove fallback; avalie habilitar hbbr para ambientes com NAT restrito.
-developer: "Carlos Fallen"
-website: "https://github.com/carlosfallen/rustdesk-server-umbrel"
-repo: "https://github.com/carlosfallen/rustdesk-server-umbrel"
-support: "https://github.com/carlosfallen/rustdesk-server-umbrel/issues"
+name: RustDesk Server
+tagline: Servidor RustDesk rápido e local
+icon: https://raw.githubusercontent.com/rustdesk/rustdesk-server/master/ui/html/favicon.ico
+category: utilities
+version: "2.0.0"
+port: 8080
+description: >
+  Servidor RustDesk para conexões rápidas e interface web local.
+developer: Comunidade Umbrel
+website: "https://rustdesk.com"
+repo: "https://github.com/rustdesk/rustdesk-server"
+support: "https://github.com/rustdesk/rustdesk-server/issues"
 gallery:
-  - https://raw.githubusercontent.com/carlosfallen/fallen-store/refs/heads/main/fallen-rustdesk-server/71636191.png
+  - https://raw.githubusercontent.com/rustdesk/rustdesk-server/master/ui/html/screenshot.png
 dependencies: []
 path: ""
 defaultUsername: ""
