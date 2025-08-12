@@ -4,7 +4,7 @@ name: RustDesk Server (hbbs-only)
 tagline: Servidor RustDesk local com interface web
 icon: https://raw.githubusercontent.com/carlosfallen/fallen-store/refs/heads/main/fallen-rustdesk-server/icon.png
 category: utilities
-version: "2.1.14"
+version: "2.2.14"
 port: 5177
 description: >
   RustDesk hbbs (rendezvous) para rede local + interface web estática.
