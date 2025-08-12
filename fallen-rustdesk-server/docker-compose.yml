@@ -2,23 +2,23 @@ version: '3.7'
 
 services:
   hbbs:
-    container_name: hbbs
+    container_name: fallen-rustdesk-hbbs
     image: rustdesk/rustdesk-server:1.1.14
+    command: hbbs
     ports:
       - "21115:21115"
       - "21116:21116"
       - "21116:21116/udp"
       - "21118:21118"
-    command: hbbs
     volumes:
-      - ${APP_DATA_DIR}/data/hbbs:/root
+      - ./data/hbbs:/root
     restart: on-failure
 
   web:
-    container_name: rustdesk-web
+    container_name: fallen-rustdesk-web
     image: nginx:1.27-alpine
     volumes:
-      - ${APP_DATA_DIR}/data/www:/usr/share/nginx/html:ro
+      - ./data/www:/usr/share/nginx/html:ro
     ports:
-      - "5177:5177"
+      - "5177:80"
     restart: on-failure
