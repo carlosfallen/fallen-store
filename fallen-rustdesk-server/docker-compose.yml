@@ -1,7 +1,7 @@
 version: "3.7"
 services:
   hbbs:
-    image: rustdesk/rustdesk-server:latest
+    image: carlosfallen/rustdesk-server:1.1.14
     command: ["hbbs", "-c", "/root/config.toml"]
     volumes:
       - ./config.toml:/root/config.toml:ro
