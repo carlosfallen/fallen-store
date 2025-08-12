@@ -2,7 +2,7 @@ manifestVersion: 1
 id: fallen-rustdesk-server
 name: "RustDesk Server (hbbs-only)"
 tagline: "Servidor RustDesk (hbbs) para LAN — descoberta e P2P, relay desativado"
-icon: https://raw.githubusercontent.com/carlosfallen/fallen-store/refs/heads/main/fallen-rustdesk-server/icon.png
+icon: https://raw.githubusercontent.com/carlosfallen/fallen-store/refs/heads/main/fallen-rustdesk-server/71636191.png
 category: utilities
 version: "1.1.14"
 port: 21115
@@ -16,7 +16,7 @@ website: "https://github.com/carlosfallen/rustdesk-server-umbrel"
 repo: "https://github.com/carlosfallen/rustdesk-server-umbrel"
 support: "https://github.com/carlosfallen/rustdesk-server-umbrel/issues"
 gallery:
-  - https://via.placeholder.com/800x600/667eea/ffffff?text=RustDesk+hbbs
+  - https://raw.githubusercontent.com/carlosfallen/fallen-store/refs/heads/main/fallen-rustdesk-server/71636191.png
 dependencies: []
 path: ""
 defaultUsername: ""
