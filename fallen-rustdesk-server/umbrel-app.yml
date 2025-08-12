@@ -4,7 +4,7 @@ name: "RustDesk Server (hbbs-only)"
 tagline: "Servidor RustDesk (hbbs) para LAN — descoberta e P2P, relay desativado"
 icon: https://raw.githubusercontent.com/carlosfallen/fallen-store/refs/heads/main/fallen-rustdesk-server/71636191.png
 category: Server
-version: "1.1.16"
+version: "1.1.17"
 port: 21115
 description: |
   Servidor RustDesk focado em hbbs (rendezvous/signaling) para uso em rede local.
