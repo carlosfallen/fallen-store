@@ -2,9 +2,9 @@ manifestVersion: 1
 id: fallen-rustdesk-server
 name: RustDesk Server
 tagline: Servidor RustDesk rápido e local
-icon: https://raw.githubusercontent.com/rustdesk/rustdesk-server/master/ui/html/favicon.ico
+icon: https://raw.githubusercontent.com/carlosfallen/fallen-store/refs/heads/main/fallen-rustdesk-server/71636191.png
 category: utilities
-version: "2.0.0"
+version: "2.0.1"
 port: 8080
 description: >
   Servidor RustDesk para conexões rápidas e interface web local.
@@ -13,7 +13,7 @@ website: "https://rustdesk.com"
 repo: "https://github.com/rustdesk/rustdesk-server"
 support: "https://github.com/rustdesk/rustdesk-server/issues"
 gallery:
-  - https://raw.githubusercontent.com/rustdesk/rustdesk-server/master/ui/html/screenshot.png
+  - https://raw.githubusercontent.com/carlosfallen/fallen-store/refs/heads/main/fallen-rustdesk-server/71636191.png
 dependencies: []
 path: ""
 defaultUsername: ""
