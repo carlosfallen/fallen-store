@@ -3,7 +3,7 @@ version: '3.7'
 services:
   hbbs:
     container_name: fallen-rustdesk-hbbs
-    image: rustdesk/rustdesk-server:1.1.14
+    image: carlosfallen/rustdesk-server:latest
     command: hbbs
     ports:
       - "21115:21115"
