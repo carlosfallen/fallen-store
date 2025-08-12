@@ -4,8 +4,8 @@ name: RustDesk Server
 tagline: Servidor RustDesk rápido e local
 icon: https://raw.githubusercontent.com/carlosfallen/fallen-store/refs/heads/main/fallen-rustdesk-server/71636191.png
 category: utilities
-version: "2.0.1"
-port: 8080
+version: "2.0.2"
+port: 5177
 description: >
   Servidor RustDesk para conexões rápidas e interface web local.
 developer: Comunidade Umbrel
