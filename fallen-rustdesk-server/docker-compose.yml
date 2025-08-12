@@ -20,5 +20,5 @@ services:
     volumes:
       - ${APP_DATA_DIR}/data/www:/usr/share/nginx/html:ro
     ports:
-      - "8080:80"
+      - "5177:5177"
     restart: on-failure
