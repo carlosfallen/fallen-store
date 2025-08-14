@@ -1,0 +1,24 @@
+version: '3.8'
+
+services:
+  apk-store:
+    build: .
+    container_name: apk-store
+    ports:
+      - "5176:5176"
+    volumes:
+      - /mnt/data/arquivos/local/Apk:/app/public/apks
+      - apk_data:/app/data
+    environment:
+      - NODE_ENV=production
+      - PORT=5176
+    restart: unless-stopped
+    networks:
+      - umbrel_main_network
+
+volumes:
+  apk_data:
+
+networks:
+  umbrel_main_network:
+    external: true
