@@ -2,16 +2,16 @@ version: "3.7"
 
 services:
   app:
-    image: carlosfallen/superips:latest
+    image: carlosfallen/superips@sha256:fc3bf3534dc1e9db2a98ced5f7fdfe76c997a2ac2d053db9dba32bc6c9cd11bd
     restart: unless-stopped
     ports:
-      - "5173:5173"  # expõe a porta real do backend
+      - "5173:5173"
     networks:
       - umbrel_main_network
     volumes:
       - ${APP_DATA_DIR}/data:/app/data
     environment:
-      - PORT=5173   # backend escutando nessa porta
+      - PORT=5173
 
 networks:
   umbrel_main_network:
