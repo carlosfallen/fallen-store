@@ -1,0 +1,18 @@
+manifestVersion: 1
+id: fallen-samba
+category: files
+name: Samba
+icon: https://upload.wikimedia.org/wikipedia/commons/0/0c/Logo_Samba_Software.svg
+version: "1.0.0"
+tagline: Compartilhe arquivos pela rede com SMB/CIFS
+description: |
+  Este app instala e configura o Samba para compartilhar a pasta `/mnt/data/arquivos/local`
+  via protocolo SMB/CIFS. O acesso é controlado pelo usuário `jorge`.
+
+developer: Carlosfallen
+website: https://www.samba.org
+repo: https://www.samba.org
+support: https://www.samba.org/samba/docs/
+port: 445
+gallery: []
+path: /
