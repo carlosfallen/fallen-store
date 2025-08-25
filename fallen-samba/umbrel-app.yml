@@ -2,7 +2,7 @@ manifestVersion: 1
 id: fallen-samba
 category: files
 name: Samba
-icon: https://upload.wikimedia.org/wikipedia/commons/0/0c/Logo_Samba_Software.svg
+icon: https://raw.githubusercontent.com/carlosfallen/fallen-store/refs/heads/main/fallen-samba/smb.png
 version: "1.0.0"
 tagline: Compartilhe arquivos pela rede com SMB/CIFS
 description: |
