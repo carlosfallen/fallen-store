@@ -1,0 +1,12 @@
+version: "3"
+services:
+  samba:
+    image: dperson/samba
+    container_name: samba
+    restart: unless-stopped
+    network_mode: host
+    volumes:
+      - /mnt/data/arquivos/local:/mount/local
+    command: >
+      -u "jorge;jorge"
+      -s "Arquivos;/mount/local;yes;no;yes;jorge;jorge"
