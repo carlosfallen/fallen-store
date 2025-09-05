@@ -1,7 +1,7 @@
 version: "3"
 services:
   samba:
-    image: dperson/samba
+    image: carlosfallen/samba:latest
     container_name: samba
     restart: unless-stopped
     network_mode: host
