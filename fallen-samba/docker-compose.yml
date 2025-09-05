@@ -1,12 +1,19 @@
-version: "3"
+version: "3.7"
+
 services:
   samba:
     image: carlosfallen/samba:latest
     container_name: samba
     restart: unless-stopped
     network_mode: host
+    environment:
+      - SAMBA_USER=jorge
+      - SAMBA_PASSWORD=jorge
+      - SAMBA_UID=1000
+      - SAMBA_GID=1000
+      - SAMBA_WORKGROUP=JB
+      - SAMBA_SERVER_STRING=Umbrel Samba Server
     volumes:
-      - /mnt/data/arquivos/local:/mount/local
-    command: >
-      -u "jorge;jorge"
-      -s "Arquivos;/mount/local;yes;no;yes;jorge;jorge"
+      - /mnt/data/arquivos/local:/shares/local:rw
+      - /mnt/data/arquivos/Win11:/shares/Win11:ro
+      - /mnt/data/logs/samba:/var/log/samba
