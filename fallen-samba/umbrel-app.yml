@@ -3,7 +3,7 @@ id: fallen-samba
 category: files
 name: Samba
 icon: https://raw.githubusercontent.com/carlosfallen/fallen-store/refs/heads/main/fallen-samba/smb.png
-version: "2.0.0"
+version: "2.0.2"
 tagline: Compartilhe arquivos pela rede com SMB/CIFS
 description: |
   Este app instala e configura o Samba para compartilhar a pasta `/mnt/data/arquivos/local`
