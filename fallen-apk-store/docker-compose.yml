@@ -1,4 +1,4 @@
-version: "3.8"
+version: '3.8'
 
 services:
   app:
@@ -6,17 +6,14 @@ services:
     ports:
       - "5176:5176"
     volumes:
-      - ${APP_DATA_DIR}/apks:/app/public/apks
-      - ${APP_DATA_DIR}/data:/app/data
+      - /mnt/data/arquivos/local/Apk:/app/public/apks
+      - /mnt/data/umbrel/app-data/fallen-apk-store/data:/app/data
     environment:
       - NODE_ENV=production
       - PORT=5176
     restart: unless-stopped
     networks:
       - umbrel_main_network
-
-volumes:
-  apk_data:
 
 networks:
   umbrel_main_network:
