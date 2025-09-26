@@ -5,13 +5,13 @@ services:
     image: carlosfallen/apk-store:latest 
     restart: unless-stopped
     ports:
-      - "5174:5174"
+      - "5176:5176"
     volumes:
       - ${APP_DATA_DIR}/apks:/app/public/apks
       - ${APP_DATA_DIR}/data:/app/data
     environment:
       - NODE_ENV=production
-      - PORT=5174
+      - PORT=5176
     restart: unless-stopped
     networks:
       - umbrel_main_network
