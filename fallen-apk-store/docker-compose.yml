@@ -2,8 +2,7 @@ version: "3.8"
 
 services:
   app:
-    image: carlosfallen/apk-store:latest 
-    restart: unless-stopped
+    image: carlosfallen/apk-store:latest
     ports:
       - "5176:5176"
     volumes:
