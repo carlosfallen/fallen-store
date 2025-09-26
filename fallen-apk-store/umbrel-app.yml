@@ -4,7 +4,7 @@ name: APK Store
 tagline: "Servidor de APKs para download local"
 icon: https://raw.githubusercontent.com/carlosfallen/fallen-store/refs/heads/main/fallen-apk-store/icon.png
 category: utilities
-version: "1.0.0"
+version: "1.0.1"
 port: 5174
 description: |
   Servidor web elegante para distribuição de APKs na sua rede local.
