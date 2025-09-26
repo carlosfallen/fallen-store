@@ -1,7 +1,7 @@
 version: "3.8"
 
 services:
-  apk-store:
+  app:
     image: carlosfallen/apk-store:latest 
     restart: unless-stopped
     ports:
