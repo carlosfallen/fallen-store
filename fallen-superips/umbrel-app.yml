@@ -4,10 +4,10 @@ name: Super Ips
 icon: https://raw.githubusercontent.com/carlosfallen/fallen-store/main/fallen-superips/icon.png
 tagline: Aplicativo de gerenciar dispositivos na rede
 category: utilities
-version: "8.9.9"
+version: "9.0.2"
 port: 5173
 description: |
-  Aplicativo de lista de tarefas desenvolvido com Node.js e Vite.
+  Aplicativo de lista de tarefas desenvolvido com Node.js e Bun.
   Interface moderna e responsiva para gerenciar suas tarefas diárias.
 developer: Carlos Fallen
 website: https://github.com/carlosfallen/rede
@@ -18,5 +18,22 @@ gallery:
   - https://raw.githubusercontent.com/carlosfallen/fallen-store/main/fallen-superips/screenshot1.png
   - https://raw.githubusercontent.com/carlosfallen/fallen-store/main/fallen-superips/screenshot2.png
 releaseNotes: |
-  migração do backend de node para bun
-dependencies: []
+  - Migração do backend de Node para Bun
+  - Novo Dashboard
+  - Novo layout responsivo
+  - Mapa interativo
+  - Banco de dados em PostgreSQL
+  - Correção de bugs menores
+  - Melhorias de performance geral
+dependencies:
+  - bun
+  - vite
+  - express
+keywords: [network, management, tasks, dashboard, bun, vite]
+platform: [windows, linux, macos]
+license: MIT
+maturity: stable
+languages: [pt-BR, en-US]
+releaseDate: 2025-09-27
+fileSize: 15MB
+checksum: abc123def456
