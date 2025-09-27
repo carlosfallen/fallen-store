@@ -11,7 +11,7 @@ services:
       - ./backend:/app/backend    # backend + configs
     environment:
       - NODE_ENV=production
-      - DB_HOST=127.0.0.1        # host do Umbrel
+      - DB_HOST=10.0.11.150
       - DB_PORT=5432
       - DB_USER=superips_user
       - DB_PASSWORD=359628
