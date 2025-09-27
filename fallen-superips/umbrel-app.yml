@@ -18,5 +18,5 @@ gallery:
   - https://raw.githubusercontent.com/carlosfallen/fallen-store/main/fallen-superips/screenshot1.png
   - https://raw.githubusercontent.com/carlosfallen/fallen-store/main/fallen-superips/screenshot2.png
 releaseNotes: |
-  Melhorias na Interface
+  migração do backend de node para bun
 dependencies: []
